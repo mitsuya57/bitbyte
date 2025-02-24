@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+li::marker{
+    display: none;
+}
+
+.col-sm-12{
+    inline-size: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.botao{
+    line-height: 15px;
+}
